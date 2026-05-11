@@ -151,22 +151,6 @@ Before `MultistageBuild`, my images were shipping dev dependencies, build toolin
 **Compose enforces reproducibility across a team.**  
 Long `docker run` commands with flags are unmanageable at team scale. After `DockerCompose` and `NotesApp`, spinning up a full multi-service environment became a one-command operation that anyone can run on any machine.
 
----
-
-## How this connects to real work
-
-I build commercial SaaS products targeting the Dominican Republic and LATAM markets. Current projects:
-
-**GeoPlanner Pro** — Route optimization SaaS for sales and logistics teams (Next.js + Python + Supabase).  
-Docker applies directly: containerized deployments, reproducible dev environments, and CI/CD pipelines that don't break between machines.
-
-**WhatsApp CRM** — Quotation generation and client management for freelancers (Next.js + Supabase).  
-Running a Compose-based local development stack that mirrors the production environment.
-
-These learning projects were the foundation for that.
-
----
-
 ## What's next
 
 - [ ] Kubernetes fundamentals — moving from Compose to k8s for orchestration at scale  
